@@ -1,0 +1,161 @@
+/*** ////////// GLOBAL STYLES ////////// ***/
+
+body {
+  background-image: url("../public/images/header.jpeg") !important;
+  background: black;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+#home-first-row button, .purple-gradient {
+  background: rgb(129,58,191) !important;
+  background: linear-gradient(103deg, rgba(129,58,191,1) 0%, rgba(76,1,224,1) 100%) !important;
+  color: white !important;
+}
+
+p, h1, h2, h3, button, form {
+  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+/*** ////////// TEXT ////////// ***/
+
+h1 {
+  font-size: 2.5em !important;
+}
+
+h2 {
+  font-size: 2em !important;
+}
+
+h3 {
+  font-size: 1.2em !important;
+}
+
+p, h1, h2, h3 {
+  margin-bottom: .5em !important;
+}
+
+#footer p {
+  font-size: 0.8em;
+}
+
+
+/*** ////////// STRUCTURE ////////// ***/
+
+#nav {
+  width: 100%;
+  padding: 20px;
+  background: none;
+}
+
+#nav button {
+  background: none !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+#logo-text {
+  color: white
+}
+
+#footer {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background: black;
+}
+
+#content {
+  max-width: 100% !important;
+  min-height: 80vh;
+  padding: 0 !important;
+}
+
+#home-first-row {
+  height: 200px;
+  color: white;
+  background: none;
+}
+
+#home-first-row button {
+  margin: 10px 0 20px 0;
+}
+
+#home-second-row {
+  background: white;
+  color: black;
+}
+
+#home-third-row {
+  background: white;
+  color: black;
+}
+
+.row {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.row-inner {
+  text-align: center;
+  padding: 20px;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#services {
+
+}
+
+.service {
+  background: white;
+  border: 1px solid black;
+  padding: 10px 10px 5px 10px;
+}
+
+.service p {
+  text-align: left;
+}
+
+.service:hover {
+  background: black;
+  color: white;
+}
+
+.service h3 {
+  color: #4608c3;
+}
+
+.service:hover h3 {
+  color: #33d4f6;
+}
+
+#team {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.teammate {
+  text-align: left;
+}
+
+.teammate h3 {
+  color: #4608c3;
+}
+
+#team button {
+  border: 1px solid black !important;
+  background: none !important;
+}
+
+.team-pic {
+
+}
+
+.team-description {
+  padding:15px !important;
+
+}
