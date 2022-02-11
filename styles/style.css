@@ -1,8 +1,9 @@
 /*** ////////// GLOBAL STYLES ////////// ***/
 
 body {
+  background: black !important;
   background-image: url("../public/images/header.jpeg") !important;
-  background: black;
+  background-repeat: no-repeat !important;
 }
 
 button {
@@ -74,7 +75,6 @@ p, h1, h2, h3 {
 }
 
 #home-first-row {
-  height: 200px;
   color: white;
   background: none;
 }
@@ -95,13 +95,13 @@ p, h1, h2, h3 {
 
 .row {
   text-align: center;
-  padding: 10px;
+  padding: 20px 10px 50px 10px;
   width: 100%;
 }
 
 .row-inner {
   text-align: center;
-  padding: 20px;
+  /*padding: 20px;*/
   width: 80vw;
   margin: 0 auto;
 }
@@ -140,6 +140,7 @@ p, h1, h2, h3 {
 
 .teammate {
   text-align: left;
+  padding: 20px 0;
 }
 
 .teammate h3 {
@@ -156,6 +157,11 @@ p, h1, h2, h3 {
 }
 
 .team-description {
-  padding:15px !important;
+  /*padding:15px !important;*/
+
+}
+
+.team-description p {
+  text-align: center !important;
 
 }

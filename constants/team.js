@@ -8,14 +8,14 @@ export const team = [
     icon: jordan.src,
     twitter: "https://twitter.com/jordanteague",
     discord: "https://discordapp.com/users/jordan_t#1507",
-    linkedin: "https://www.linkedin.com/jordanteague"
+    linkedin: "https://www.linkedin.com/in/jordanteague/"
   },
   {
     name: "George Campbell",
     description: "George is a DAO ninja and was mining Ethereum before it was cool.",
     icon: george.src,
-    twitter: "https://twitter.com/jordanteague",
+    twitter: "https://twitter.com/gacjr1",
     discord: "https://discordapp.com/users/jordan_t#1507",
-    linkedin: "https://www.linkedin.com/jordanteague"
+    linkedin: "https://www.linkedin.com/in/gacjr/"
   }
 ];

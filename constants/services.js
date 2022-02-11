@@ -1,17 +1,17 @@
 export const services = [
   {
-    name: "DAO Legal Structure",
+    name: "Web3 Startups",
+    description: "From forming a company to raising money to hiring employees, we've got you covered.",
+    icon: null
+  },
+  {
+    name: "DAO Structure",
     description: "We'll help you figure out the best legal structure for your DAO.",
     icon: null
   },
   {
-    name: "Smart Contract Legal Review",
-    description: "You got a security audit, but how about a legal audit? We can help.",
-    icon: null
-  },
-  {
     name: "NFT Sale Advice",
-    description: "We can advise on best practices for selling NFTs.",
+    description: "We can advise on best practices for selling NFTs and how to protect your IP.",
     icon: null
   },
   {
@@ -20,8 +20,8 @@ export const services = [
     icon: null
   },
   {
-    name: "Startup Legal Advice",
-    description: "From forming a company to raising money to hiring employees, we've got you covered.",
+    name: "Smart Contracts",
+    description: "You got a security audit, but how about a legal audit? We can help.",
     icon: null
   }
 ]
