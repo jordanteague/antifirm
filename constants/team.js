@@ -15,7 +15,7 @@ export const team = [
     description: "George is a DAO ninja and was mining Ethereum before it was cool.",
     icon: george.src,
     twitter: "https://twitter.com/gacjr1",
-    discord: "https://discordapp.com/users/jordan_t#1507",
+    discord: "https://discordapp.com/users/gac#5050",
     linkedin: "https://www.linkedin.com/in/gacjr/"
   }
 ];
