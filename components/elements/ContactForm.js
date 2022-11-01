@@ -10,7 +10,7 @@ import {
   FormLabel,
   Input,
   DrawerFooter,
-  Stack,
+  // Stack,
   useDisclosure,
   Textarea,
   FormErrorMessage,
@@ -81,61 +81,17 @@ function ContactForm(props) {
         <DrawerContent>
           <DrawerHeader><Heading as="h3">What do you need help with?</Heading></DrawerHeader>
           <DrawerBody>
-            <Stack
+            {/* <Stack
               as="form"
               id="contact-form"
               onSubmit={handleSubmit(handleSend)}
               spacing={2}
             >
-              <FormControl>
-                <FormLabel htmlFor="name">Name</FormLabel>
-                <Input
-                  ref={initialField}
-                  id="name"
-                  placeholder="Enter your name"
-                  {...register("name", { required: "Name is required!" })}
-                />
-                <FormErrorMessage>
-                  {errors.name ? errors.name.message : null}
-                </FormErrorMessage>
-              </FormControl>
-              <FormControl>
-                <FormLabel htmlFor="email">Email</FormLabel>
-                <Input
-                  id="email"
-                  placeholder="Enter your email"
-                  {...register("email", { required: "Email is required!" })}
-                />
-                <FormErrorMessage>
-                  {errors.email ? errors.email.message : null}
-                </FormErrorMessage>
-              </FormControl>
-              <FormControl>
-                <FormLabel htmlFor="subject">Subject</FormLabel>
-                <Input
-                  id="subject"
-                  placeholder="Enter the subject"
-                  {...register("subject", { required: "Subject is required!" })}
-                />
-                <FormErrorMessage>
-                  {errors.subject ? errors.subject.message : null}
-                </FormErrorMessage>
-              </FormControl>
-              <FormControl>
-                <FormLabel htmlFor="message">Message</FormLabel>
-                <Textarea
-                  id="message"
-                  placeholder="Enter a description of your needs"
-                  {...register("message", { required: "Subject is required!" })}
-                />
-                <FormErrorMessage>
-                  {errors.message ? errors.message.message : null}
-                </FormErrorMessage>
-              </FormControl>
-            </Stack>
+            </Stack> */}
+            <iframe src="https://campbellteague.com/clio-form"></iframe>
           </DrawerBody>
           <DrawerFooter>
-            <Button
+            {/* <Button
               type="submit"
               form="contact-form"
               mr={3}
@@ -144,7 +100,7 @@ function ContactForm(props) {
               className="purple-gradient"
             >
               Send
-            </Button>
+            </Button> */}
             <Button
               border="none"
               onClick={onClose}
