@@ -165,3 +165,23 @@ p, h1, h2, h3 {
   text-align: center !important;
 
 }
+
+/* IFRAME ON ANTIFIRM */
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.chakra-heading {
+  margin-bottom: 0 !important;
+}
+
+.css-9fgtzh {
+  padding-bottom: 0 !important;
+}
+
+#chakra-modal-1,
+#chakra-modal-3 {
+  height: 85vh;
+}
