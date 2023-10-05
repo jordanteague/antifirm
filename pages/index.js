@@ -10,7 +10,7 @@ import {
   HStack,
   Button,
   IconButton,
-  Link,
+  Link
 } from "@chakra-ui/react";
 import { SocialIcon } from "react-social-icons";
 import { BsTwitter } from "react-icons/bs";
@@ -60,10 +60,16 @@ export default function Home() {
             {team.map((item, index) => (
               <WrapItem
                 className="teammate"
-                width={{ sm: "100%", md: "48%", lg: "48%", xl: "48%" }}
+                width={{ sm: "100%", md: "30%", lg: "30%", xl: "30%" }}
               >
-                <HStack alignItems="start">
-                  <Box width={{ sm: "100%", md: "48%", lg: "48%", xl: "48%" }}>
+                <VStack alignItems="start">
+                  <Box
+                    width={{ sm: "100%", md: "100%", lg: "100%", xl: "100%" }}
+                    style={{
+                      display: "flex",
+                      justifyContent: "center"
+                    }}
+                  >
                     <img
                       src={item.icon}
                       width="200"
@@ -87,7 +93,7 @@ export default function Home() {
                       </Link>
                     </HStack>
                   </VStack>
-                </HStack>
+                </VStack>
               </WrapItem>
             ))}
           </Wrap>
