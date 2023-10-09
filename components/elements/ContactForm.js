@@ -18,12 +18,12 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
-import { init, sendForm } from "emailjs-com";
+// import { init, sendForm } from "emailjs-com";
 //import { init, sendForm } from '@emailjs/browser';
 import { HiOutlineMail } from "react-icons/hi";
 import { BiMailSend } from "react-icons/bi";
 
-init("user_jP4M8dOSIxrpIpmH1rsQS");
+// init("user_jP4M8dOSIxrpIpmH1rsQS");
 
 function ContactForm(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -35,33 +35,33 @@ function ContactForm(props) {
   const initialField = useRef();
   const toast = useToast();
 
-  const handleSend = (values) => {
-    console.log(values);
+  // const handleSend = (values) => {
+  //   console.log(values);
 
-    sendForm("default_service", "template_95n4lov", "#contact-form").then(
-      function (response) {
-        console.log("SUCCESS!", response.status, response.text);
-        toast({
-          title: "Success",
-          description: "Email sent successfully!",
-          status: "success",
-          duration: 9000,
-          isClosable: true,
-        });
-      },
-      function (error) {
-        console.log("FAILED!", error);
-        toast({
-          title: "Failed",
-          description: "We were not able to send this email.",
-          status: "error",
-          duration: 9000,
-          isClosable: true,
-        });
-      }
-    );
-    onClose();
-  };
+  //   sendForm("default_service", "template_95n4lov", "#contact-form").then(
+  //     function (response) {
+  //       console.log("SUCCESS!", response.status, response.text);
+  //       toast({
+  //         title: "Success",
+  //         description: "Email sent successfully!",
+  //         status: "success",
+  //         duration: 9000,
+  //         isClosable: true,
+  //       });
+  //     },
+  //     function (error) {
+  //       console.log("FAILED!", error);
+  //       toast({
+  //         title: "Failed",
+  //         description: "We were not able to send this email.",
+  //         status: "error",
+  //         duration: 9000,
+  //         isClosable: true,
+  //       });
+  //     }
+  //   );
+  //   onClose();
+  // };
 
   return (
     <>
