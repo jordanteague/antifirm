@@ -15,7 +15,7 @@ import {
   Textarea,
   FormErrorMessage,
   useToast,
-  Heading
+  Heading,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 import { init, sendForm } from "emailjs-com";
@@ -65,10 +65,7 @@ function ContactForm(props) {
 
   return (
     <>
-      <Button
-        onClick={onOpen}
-        leftIcon={<HiOutlineMail />}
-      >
+      <Button onClick={onOpen} leftIcon={<HiOutlineMail />}>
         {props.label}
       </Button>
       <Drawer
@@ -78,8 +75,10 @@ function ContactForm(props) {
         onClose={onClose}
       >
         <DrawerOverlay />
-        <DrawerContent>
-          <DrawerHeader><Heading as="h3">What do you need help with?</Heading></DrawerHeader>
+        <DrawerContent height="80% !important">
+          <DrawerHeader>
+            <Heading as="h3">What do you need help with?</Heading>
+          </DrawerHeader>
           <DrawerBody>
             {/* <Stack
               as="form"
@@ -88,7 +87,10 @@ function ContactForm(props) {
               spacing={2}
             >
             </Stack> */}
-            <iframe src="https://campbellteague.com/clio-form"></iframe>
+            <iframe
+              src="https://campbellteague.com/clio-form"
+              height="500"
+            ></iframe>
           </DrawerBody>
           <DrawerFooter>
             {/* <Button
@@ -101,10 +103,7 @@ function ContactForm(props) {
             >
               Send
             </Button> */}
-            <Button
-              border="none"
-              onClick={onClose}
-            >
+            <Button border="none" onClick={onClose}>
               Cancel
             </Button>
           </DrawerFooter>

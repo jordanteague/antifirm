@@ -1,4 +1,5 @@
 /*** ////////// GLOBAL STYLES ////////// ***/
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Open+Sans:wght@300;800&display=swap");
 
 body {
   background: black !important;
@@ -10,14 +11,24 @@ button {
   border-radius: 0 !important;
 }
 
-#home-first-row button, .purple-gradient {
-  background: rgb(129,58,191) !important;
-  background: linear-gradient(103deg, rgba(129,58,191,1) 0%, rgba(76,1,224,1) 100%) !important;
+#home-first-row button,
+.purple-gradient {
+  background: rgb(129, 58, 191) !important;
+  background: linear-gradient(
+    103deg,
+    rgba(129, 58, 191, 1) 0%,
+    rgba(76, 1, 224, 1) 100%
+  ) !important;
   color: white !important;
 }
 
-p, h1, h2, h3, button, form {
-  font-family: 'IBM Plex Mono', monospace !important;
+p,
+h1,
+h2,
+h3,
+button,
+form {
+  font-family: "IBM Plex Mono", monospace !important;
 }
 
 /*** ////////// TEXT ////////// ***/
@@ -34,14 +45,16 @@ h3 {
   font-size: 1.2em !important;
 }
 
-p, h1, h2, h3 {
-  margin-bottom: .5em !important;
+p,
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em !important;
 }
 
 #footer p {
   font-size: 0.8em;
 }
-
 
 /*** ////////// STRUCTURE ////////// ***/
 
@@ -58,7 +71,7 @@ p, h1, h2, h3 {
 }
 
 #logo-text {
-  color: white
+  color: white;
 }
 
 #footer {
@@ -107,7 +120,6 @@ p, h1, h2, h3 {
 }
 
 #services {
-
 }
 
 .service {
@@ -153,17 +165,14 @@ p, h1, h2, h3 {
 }
 
 .team-pic {
-
 }
 
 .team-description {
   /*padding:15px !important;*/
-
 }
 
 .team-description p {
   text-align: center !important;
-
 }
 
 /* IFRAME ON ANTIFIRM */
